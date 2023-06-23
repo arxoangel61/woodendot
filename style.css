@@ -1,0 +1,666 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Playfair+Display&family=Roboto:wght@400;700&display=swap');
+
+/* font-family: 'Cardo', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif; */
+
+body {
+  margin: 0;
+  background-color: #F8F8F8;
+}
+
+.container {
+  max-width: 960px; /* задаем  макс. размер контейнира для сжатия ( размер взят с фигмы) */
+  margin: 0 auto; /* центрируем по середине */
+  padding: 0 15px; /* отступы, чтобы контент не прижемался  */
+}
+
+h1, h2, h3, h4, p, li, a{
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* секция header  */
+.header {
+  height: 105px;
+  position: relative;
+}
+
+.header_logo {
+  padding-top: 15px;
+  text-align: center;
+}
+
+/* секция welcome  */
+.welcome {
+  margin: 0;
+  background-image: url("images/welcome.jpg");
+  background-size: cover;  /* картинка растягивается на заданные параметры */
+  background-position: center; /* выравнимание картинки по центру */
+  background-repeat: no-repeat;  /* Чтобы картинка не повторялась */
+  height: 700px;
+}
+.welcome_title {
+  padding-top: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.welcome_title p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  width: 807px;
+}
+.btn {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 0px;
+  background: transparent;
+  padding: 5px 40px;
+  cursor: pointer;
+}
+.welcome_text {
+  font-family: 'Playfair Display', serif;
+  background-color: black;
+  color: #FFFFFF;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 324px;
+  padding: 10px 20px;
+  position: relative;
+  bottom: -210px;
+  left: 20px;
+}
+
+/* секция free shipping */
+
+.free_shipping {
+  margin: 0;
+  height: 150px;
+}
+.container {
+  max-width: 1000px; /* задаем  макс. размер контейнира для сжатия ( размер взят с фигмы) */
+  margin: 0 auto; /* центрируем по середине */
+  padding: 0 15px; /* отступы */
+}
+.free_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 45px;
+}
+
+.item_img {
+  display: flex;
+}
+.item_1 {
+  width: 238px;
+}
+.item_1 p {
+  padding-left: 22px;
+}
+.item_2 {
+  width: 278px;
+}
+.item_2 p {
+  padding-left: 10px;
+}
+.item_3 {
+  width: 251px;
+}
+.item_3 p {
+  padding-left: 22px;
+}
+.item_4 {
+  width: 291px;
+}
+.item_4 p {
+  padding-left: 36px;
+}
+
+.free_text {
+  font-family: 'Roboto';
+  font-size: 13px;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+/* секция foto list  */
+
+.foto_list {
+  margin: 0;
+}
+.foto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foto_img {
+  height: 320px;
+  width: 25%;
+  object-fit: cover;
+}
+
+/* секция shop  */
+
+.shop {
+  margin: 0;
+  margin-top: 120px;
+}
+.shop_container {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.shop_text {
+  width: 30%;
+}
+
+
+.shop_text h3 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 33px;
+}
+
+.padding_text_one h3 {
+  padding-right: 50px;
+  padding-top: 50px;
+}
+
+.shop_text h5 {
+  margin: 0;
+  font-family: 'Cardo';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.padding_text_one h5 {
+  padding-right: 50px;
+  padding-top: 5px;
+}
+
+
+.shop_buy {
+  margin: 0;
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.padding_buy_one {
+  padding-right: 50px;
+  padding-top: 22px;
+}
+
+.shop_description {
+  margin: 0;
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  color: #525252;
+}
+
+.padding_description_one {
+  padding-right: 20px;
+  padding-top: 16px;
+  padding-bottom: 66px;
+}
+
+
+.shop_link {
+  text-decoration: 1px underline black;
+  color: #000000;
+}
+.padding_link_one {
+  padding-right: 40px;
+}
+
+.shop_img img{
+  width: 1160px;
+  height: 542px;
+  object-fit: cover;
+}
+
+.shop_container_two {
+  margin: 0;
+  margin-top: 30px;
+  display: flex;
+  text-align: left;
+}
+
+.shop_container_two>.shop_text{
+  padding-left: 40px;
+}
+
+.shop_info {
+  margin: 0;
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #54595F;
+}
+
+.padding_text_two h3 {
+  margin-top: 96px;
+}
+.padding_text_two h5 {
+  margin-top: 5px;
+}
+
+.padding_buy_two {
+  margin-top: 22px;
+}
+
+.padding_description_two {
+  width: 384px;
+  margin-top: 27px;
+}
+
+.padding_info_two {
+  margin-top: 24px;
+  margin-bottom: 50px;
+}
+
+
+.shop_container_three {
+  margin: 0;
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.shop_container_three>.shop_text {
+  padding-right: 50px;
+}
+
+.shop_sell {
+  margin: 0;
+  margin-top: 50px;
+  font-family: 'Cardo';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  color: #BC1414;
+}
+
+.padding_text_three h3{
+  margin-top: 20px;
+}
+
+.padding_text_three h5{
+  margin-top: 5px;
+}
+
+.padding_buy_three {
+  margin-top: 20px;
+}
+
+.padding_description_three {
+  margin-top: 50px;
+}
+
+.padding_info_three {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.shop_container_four {
+  margin: 0;
+  margin-top: 30px;
+  display: flex;
+}
+
+.padding_text_four {
+  padding-left: 50px;
+}
+.padding_text_four h3 {
+  margin-top: 50px;
+}
+.padding_text_four h5 {
+  margin-top: 5px;
+}
+.padding_buy_four {
+  margin-top: 23px;
+}
+
+.padding_description_four {
+  margin-top: 26px;
+}
+
+.padding_info_four {
+  margin-top: 25px;
+  margin-bottom: 47px;
+}
+.shop_logos {
+  margin-top: 57px;
+  display: block;
+}
+
+.shop_container_five {
+  margin: 0;
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.shop_container_five>.shop_text {
+  padding-right: 50px;
+  text-align: right;
+}
+
+.padding_text_five h3{
+  margin-top: 96px;
+}
+.padding_text_five h5 {
+  margin-top: 5px;
+}
+
+.padding_buy_five {
+  margin-top: 22px;
+}
+
+.padding_description_five {
+  margin-top: 50px;
+}
+
+.padding_info_five {
+  margin-top: 23px;
+  margin-bottom: 50px;
+}
+
+/* секция our_pieces */
+
+.our_pieces {
+  margin-top: 40px;
+}
+.our_pieces_title h2 {
+  margin: 0;
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #3A3A3A;
+}
+.our_pieces_title p {
+  margin: 0;
+  margin-top: 20px;
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+}
+.our_pieces_container {
+  display: flex;
+  justify-content: space-between;
+  width: 1120px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.our_pieces_item_1 {
+  position: relative;
+}
+.our_pices_instagramm {
+  display: flex;
+  position: absolute;
+  top: 41px;
+  right: 20px;
+}
+
+.our_pices_instagramm p {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding-left: 5px;
+}
+
+/* секция quotation  */
+
+.quotation {
+  margin: 0;
+  margin-top: 145px;
+
+}
+.quotation h5 {
+  margin: 0 auto;
+  font-family: 'Cardo';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  width: 1190px;
+  color: #020202;
+  }
+.quotation p {
+  margin-top: 37px;
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: #000000;
+
+}
+
+/* секция learn-more */
+
+.learn-more {
+  margin: 0;
+  margin-top: 150px;
+}
+.learn-more-container {
+  display: flex;
+}
+.learn-more-items {
+  width: 25%;
+  height: 25%;
+  padding: 54px 50px 45px 50px;
+  text-align: center;
+}
+
+.learn-more-items img {
+  margin-top: 54px;
+}
+
+.learn-more-items h5 {
+  margin: 0;
+  margin-top: 30px;
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.learn-more-items p {
+  margin: 0;
+  margin-top: 12px;
+  margin-bottom: 33px;
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.learn-more-container a{
+  text-decoration: underline;
+  color: #000000;
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.learn-more-color {
+  background-color: #FFFFFF;
+}
+
+/* секция footer */
+
+
+.footer {
+  margin: 0;
+  background-color: #E9E9E9;
+}
+.footer-container {
+  padding: 40px 140px 0 140px ;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-nav-list {
+  width: 208px;
+  text-align: center;
+}
+
+.footer-nav-list p {
+  margin: 0;
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  text-transform: uppercase;
+}
+
+.footer-nav-list a {
+  margin: 0;
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+}
+
+.footer-nav-list ul {
+  margin: 0;
+  margin-top: 45px;
+}
+
+.footer-nav-list li {
+  margin: 0;
+  margin-bottom: 13px;
+}
+
+
+.footer-subscription {
+  margin: 0;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-subscription-image {
+  margin: 0;
+  margin-top: 30px;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+.footer-subscription p {
+  margin: 0;
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.footer-btn {
+  margin: 0;
+  margin-top: 17px;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  padding: 5px 41px;
+  cursor: pointer;
+}
+
+.footer-copyright {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 220px 50px 220px;
+}
+
+.copy {
+  margin: 0;
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.terms {
+  display: flex;
+  margin: 0;
+  margin-right: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.terms a {
+  display: flex;
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  color: #000000;
+}
+
+.terms p {
+  display: flex;
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  margin: 0 5px;
+}
